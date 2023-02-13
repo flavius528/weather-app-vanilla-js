@@ -4,6 +4,9 @@ Shows the weather using the Weather API
 
 ## About
 Real-time weather web app using Basic JS (Vanilla JS)
+A simple weather app using basic JavaScript. It uses a free API from weatherapi [anchor: https://www.weatherapi.com/] with its useful JSON keys
+in order to make the content visible on the page (text and the SVGs), turn the page into a night sky when the client searches for the weather of a country that is in a night period
+
 ### Screenshots
 ![Shot01](https://user-images.githubusercontent.com/124906353/218440706-64a5a2d1-b948-40eb-89cd-46bf39c03b58.PNG)
 
