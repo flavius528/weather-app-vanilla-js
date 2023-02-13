@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="./icons/day.ico" type="image/x-icon">
+</head>
+<body>
+    <form id="search-form">
+        <input type="search" placeholder="What city today" id="search-input" required autocomplete="off">
+        <br>
+        <button id="search-button">Search</button>
+    </form>
+    <main id="app-container">
+        <div id="location">
+            <p id="location-label">-----</p>
+        </div>
+        <div id="temp">
+            <p><span id="temp-value">---</span> <span id="temp-unit">&#176c</span></p>
+            <img id="temp-icon" src="./svg/cloudy.svg" alt="icon">
+        </div>
+        <div id="climate">
+            <p id="climate-value">-----</p>
+        </div>
+    </main>
+</body>
+</html>

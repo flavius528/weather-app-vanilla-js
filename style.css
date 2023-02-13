@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url('./fonts/Ubuntu-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100px;
+    background-color: #87CEEB;
+    transition: all 1s ease;
+}
+
+body.is-day {
+    background-color: #87CEEB;
+}
+
+body.is-night {
+    background-color: #0C1445;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-unit {
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#temp #temp-value {
+    font-family: Ubuntu;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#climate {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#location {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#temp-icon {
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+#search-button {
+    color: white;
+    text-decoration: none;
+    background: gray;
+    border-radius: 5px;
+    border-color: gray;
+    margin-left:  5px;
+    padding: 11px;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+    font-family: Ubuntu;
+}
+
+#search-button:hover {
+    color: white;
+    border-color: white;
+    background: lightgray;
+    transition: all 0.4 ease 0s;
+}
+
+#search-input {
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid white;
+    color: white;
+    font-family: Ubuntu;
+    outline: none;
+    background: none;
+}
+
+input {
+    border: none;
+}
